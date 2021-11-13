@@ -1,0 +1,29 @@
+.searchbar{
+    width: 70%;
+    margin: 20px auto 0 250px;}
+.searchbar i{
+    font-size: 20px;
+}
+.search{
+    width: 70%;
+    border: none;
+    margin: 20px;
+}
+.oops{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+.msg{
+    font-size: 30px;
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    .searchbar{
+        width: 70%;
+        margin-left: auto;
+    }
+    .msg{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,8 @@
+.cat p{
+    margin: 0 25px 0 25px;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+}
+.cat p:hover{
+    color: black ;
+}
