@@ -21,12 +21,11 @@
 }
 
 .templetes{
-    /* width: 32%; */
+    width: 30%;
     display: inline-flex;
     flex-direction: row;
-    /* border:1px solid black;  */
-    margin:30px 0 0 15px ; 
-  }
+    margin:5% 0 0 2.5% ;  
+ }
 
   @media only screen and (max-width: 480px) {
     .tab{
@@ -57,13 +56,14 @@
         font-size: 23px;
     } */
     .templetes{
-        margin-left: 35px;
+        width: 80%;
+        margin:5% 0 0 10%;
     }
   }
   @media only screen and (min-width:480px) and (max-width:768px){
-      .templetes{
+      /* .templetes{
           margin: 30px auto 0 auto;
-      }
+      } */
       .banner{
         width: 100%;
         margin-top: 5px;

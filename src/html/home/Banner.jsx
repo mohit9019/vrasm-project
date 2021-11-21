@@ -5,7 +5,7 @@ import Navba from "./Navba";
 function Banner(){
     return(
         <>
-        <Navba />
+        <Navba isProfile={0} />
         <Categories />
         <center>
         <div className="banner">

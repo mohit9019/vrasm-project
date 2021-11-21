@@ -1,6 +1,6 @@
 .temp-detail{
     width: 100%;
-    height: 760px;
+    height: auto;
     /* display: grid;
     grid-template-columns: 580px auto; */
     border-radius: 3px;
@@ -8,7 +8,8 @@
 }
 .detail{
     width: 60%;
-    height: 760px;
+    height: auto;
+    padding-bottom: 20px;
     background-color: rgb(253, 252, 252);
     border-radius: 3px;
     display: block;
@@ -44,6 +45,8 @@
     border: none;
     border-radius: 6px;
     font-size: 12px;
+    cursor: pointer;
+    transition: .3s;
 }
 .bt:hover{
     color: rgb(255, 254, 254);
@@ -54,9 +57,9 @@
     height: auto;
     margin-top: 20px;
 }
-.desc{
+.description{
     width: 90%;
-    margin-top: 20px;
+    margin-top: 20px; 
     display: block;
 }
 .temp-desc{
@@ -88,45 +91,13 @@
     font-size: 15px;
     padding:5px 10px 5px 10px;
     margin-top: 10px;
-    background-color: rgb(252, 120, 87);
+    background-color: rgb(236, 124, 96);
     color: white;
 }
-
-
-/* .form{
-    height: 400px;
-    margin-left: 10px;
-    box-shadow: 4px 7px 8px grey ;
-    background-color: rgb(253, 252, 252);
+.download:hover{
+    background-color:rgb(252, 120, 87) ;
+    
 }
-.form-detail{
-    width: 100%;
-    border-radius: 3px;
-    height: 60px;
-    background-color: rgb(39, 39, 39) ;
-}
-.form-detail h2{
-    color:rgb(196, 195, 195);
-    margin:auto;
-    text-align: center;
-    line-height: 50px;
-}
-.feedback{
-    font-size: 20px;
-    margin:20px 0 0 25px;
-    color: rgb(49, 49, 49);
-}
-.line{
-    margin: 10px 0 0 25px;
-}
-.inputs input{
-    margin: 10px 0 10px 25px;
-    width: 80%;
-    border:1px grey solid;
-    border-radius: 3px;
-    padding: 5px 0 5px 7px;
-} */
-
 @media only screen and (max-width: 500px) {
     .temp-detail{
         width: 100%;
@@ -152,8 +123,4 @@
     .download{
         font-size: 10px;
     }
-
-    /* .form{
-        display: none;
-    } */
 }

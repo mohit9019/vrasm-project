@@ -18,6 +18,16 @@
     color: rgb(24, 24, 24);
     text-align: center;
 }
+.home{
+    text-decoration: none;
+}
+.home i{
+    color: rgb(43, 43, 43);
+    font-size: 30px;
+}
+.home i:hover{
+    color: black;
+}
 @media only screen and (max-width: 500px) {
     .searchbar{
         width: 70%;
