@@ -1,7 +1,7 @@
 const Data=[
     {
         id:"1",
-        img:"/Images/food.jpg", 
+        img:"./Images/food.jpg", 
         title:"Food hall",
         desc:"Foodhall is a responsive Blogger theme highlighting a good design for food blogging that brings many awesome.",
         review: "⭐⭐⭐⭐⭐",
@@ -10,7 +10,7 @@ const Data=[
     }, 
     {
         id:"2",
-        img:"/Images/ecolife.jpg",
+        img:"./Images/ecolife.jpg",
         title:"EcoLife",
         desc:"Ecolife – Organic Food Responsive Prestashop theme is an amazing Prestashop theme in the latest version of Prestashop 1.7.x.",
         review: "⭐⭐⭐⭐",
@@ -19,7 +19,7 @@ const Data=[
     },
     {
         id:"3",
-        img:"/Images/flexi.webp",
+        img:"./Images/flexi.webp",
         title:"FlexiBlog",
         desc:"FlexiBlog is a fully functional multi-purpose blog theme powered by React and Gatsby JS v3 and packed with various page layouts.",
         review: "⭐⭐⭐⭐",
@@ -28,7 +28,7 @@ const Data=[
     },
     {
         id:"4",
-        img:"/Images/q.jpg",
+        img:"./Images/q.jpg",
         title:"Quarter – Real Estate",
         desc:"Quarter is a Real Estate, Architecture & interior design Bootstrap 5 HTML Template for real estate website.",
         review: "⭐⭐⭐⭐⭐",
@@ -37,7 +37,7 @@ const Data=[
     },
     {
         id:"5",
-        img:"/Images/n.png",
+        img:"./Images/n.png",
         title:"Architeck - Construction",
         desc:"Architeck is a clean and powerful HTML5 Construction and real estate Template fabricated for building & construction companies.",
         review: "⭐⭐⭐",
@@ -46,7 +46,7 @@ const Data=[
     },
     {
         id:"6",
-        img:"/Images/p.jpg",
+        img:"./Images/p.jpg",
         title:"Realtor - Real Estate",
         desc:"Realtor is a Real Estate, Architecture & interior design Bootstrap 5 HTML Template for real estate website.",
         review: "⭐⭐⭐⭐",
