@@ -2,10 +2,11 @@ import "../../css/buyer dashboard/Editprofile.css";
 import "../../css/buyer dashboard/Personalinfo.css";
 import {Form,Col,Row,Button} from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Navba from "../home/Navba";
+import Sidebar from "./Sidebar";
 function Editprofile(){
     return(
         <> 
-
 
 <div className="personal-info">
             <div className="info"><div className="edit-icon"><h2 className="n">Edit Information</h2>
@@ -64,7 +65,7 @@ function Editprofile(){
   </Form.Group>
 
 
-  <Link to="/"><Button variant="primary" type="submit" style={{marginTop:"10px"}}>
+  <Link to="/Creatordash/Personalinfo"><Button variant="primary" type="submit" style={{marginTop:"10px"}}>
     Edit Profile
   </Button></Link>
 

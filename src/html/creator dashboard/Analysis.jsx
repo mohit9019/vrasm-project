@@ -1,5 +1,7 @@
 import "../../css/buyer dashboard/Analysis.css";
-import {Table} from "react-bootstrap"
+import {Table} from "react-bootstrap";
+import Navba from "../home/Navba";
+import Sidebar from "./Sidebar";
 function Analysis(){
     return(
         <>

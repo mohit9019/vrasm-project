@@ -1,25 +1,27 @@
 import "../../css/buyer dashboard/Personalinfo.css";
 import {Form,Col,Row} from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Navba from "../home/Navba";
+import Sidebar from "./Sidebar";
 function Personalinfo(){
     return(
         <>
             <div className="personal-info">
             <div className="info"><div className="edit-icon">
             <h2 className="n">Account Information</h2>
-            <Link to="/Editprofile" style={{color:"rgb(49, 49, 49)"}} className="edit"><i class="fas fa-edit"></i></Link></div>
+            <Link to="/Creatordash/Editprofile" style={{color:"rgb(49, 49, 49)"}} className="edit"><i class="fas fa-edit"></i></Link></div>
 
 
             <Form className="read">
   <Row className="mb-3">
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label >First Name</Form.Label>
-      <Form.Control type="text"  placeholder="Mohit" readOnly />
+      <Form.Control type="text"  placeholder="Tony" readOnly />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
       <Form.Label >Last Name</Form.Label>
-      <Form.Control type="text"  placeholder="Chauhan" readOnly />
+      <Form.Control type="text"  placeholder="Stark" readOnly />
     </Form.Group>
   </Row>
 
@@ -48,12 +50,12 @@ function Personalinfo(){
   <Row className="mb-3">
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label >College Name</Form.Label>
-      <Form.Control type="text"  placeholder="KSSBM" readOnly />
+      <Form.Control type="text"  placeholder="Harward" readOnly />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
       <Form.Label >Course Name</Form.Label>
-      <Form.Control type="text"  placeholder="Msc.IT" readOnly />
+      <Form.Control type="text"  placeholder="M.I.T" readOnly />
     </Form.Group>
   </Row>
 

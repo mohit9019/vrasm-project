@@ -2,4 +2,19 @@
     width: 72%;
     height: auto;
     margin-left: 18%;
+} 
+.form1 , .documents{
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.n{
+    margin-top: 10px;
+}
+.save{
+    float: right;
+}
+.previous{
+    float: left;
 }

@@ -8,21 +8,21 @@ import Wallet from "./Wallet";
 import React from "react";
 import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
-import {Routes, Route,} from 'react-router-dom';
+import { Routes, Route, } from 'react-router-dom';
 import { useState } from "react";
 
-function Buyerdash(){
-    return(
+function Buyerdash() {
+    return (
         <>
-        <Navba />
-        <div className="buyer-dashboard">
-            <Sidebar />                
+            <Sidebar />
+            
+            <div className="buyer-dashboard">
                 <Routes>
-                <Route path="/Personalinfo" element={<Personalinfo />} />
-                <Route path="/Editprofile" element={<Editprofile />} />
-                <Route path="/Myorder" element={<Myorder />} />
-                <Route path="/Changepass" element={<Changepass />} />
-                <Route path="/Wallet" element={<Wallet />} />
+                    <Route path="Personalinfo" element={<Personalinfo />} />
+                    <Route path="Editprofile" element={<Editprofile />} />
+                    <Route path="Myorder" element={<Myorder />} />
+                    <Route path="Changepass" element={<Changepass />} />
+                    <Route path="Wallet" element={<Wallet />} />
                 </Routes>
             </div>
         </>

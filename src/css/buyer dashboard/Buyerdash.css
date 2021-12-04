@@ -13,7 +13,7 @@
     height: auto;
     overflow: hidden;
     border-radius:50%;
-    border: 1px rgb(100, 99, 99) solid;
+    /* border: 1px rgb(100, 99, 99) solid; */
 }
 .side-bar{
     width: 18%;

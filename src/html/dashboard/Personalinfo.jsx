@@ -6,24 +6,22 @@ import Navba from "../home/Navba";
 function Personalinfo(){
     return(
         <>
-        <Navba />
-        <Sidebar />
             <div className="personal-info">
             <div className="info"><div className="edit-icon">
             <h2 className="n">Account Information</h2>
-            <Link to="/Editprofile" style={{color:"rgb(49, 49, 49)"}} className="edit"><i class="fas fa-edit"></i></Link></div>
+            <Link to="/Buyerdash/Editprofile" style={{color:"rgb(49, 49, 49)"}} className="edit"><i class="fas fa-edit"></i></Link></div>
 
 
             <Form className="read">
   <Row className="mb-3">
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>First Name</Form.Label>
-      <Form.Control type="text" placeholder="Mohit" readOnly />
+      <Form.Control type="text" placeholder="Tony" readOnly />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
       <Form.Label>Last Name</Form.Label>
-      <Form.Control type="text" placeholder="Chauhan" readOnly />
+      <Form.Control type="text" placeholder="Stark" readOnly />
     </Form.Group>
   </Row>
 

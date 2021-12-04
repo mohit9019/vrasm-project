@@ -1,3 +1,5 @@
+import Sidebar from "./Sidebar";
+import Navba from "../home/Navba";
 import "../../css/buyer dashboard/Changepass.css";
 import {Form,Button} from "react-bootstrap";
 function Changepass(){

@@ -5,7 +5,6 @@ import "../../css/login/Login.css";
 function Login(){
     return(
         <>
-        <Navba />
           <div className="log">  <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
