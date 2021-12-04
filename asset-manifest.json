@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vrasm-project/static/css/main.c2355415.chunk.css",
+    "main.js": "/vrasm-project/static/js/main.fceec423.chunk.js",
+    "main.js.map": "/vrasm-project/static/js/main.fceec423.chunk.js.map",
+    "runtime-main.js": "/vrasm-project/static/js/runtime-main.5a08d67e.js",
+    "runtime-main.js.map": "/vrasm-project/static/js/runtime-main.5a08d67e.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/vrasm-project/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.c58a33a5.chunk.js": "/vrasm-project/static/js/2.c58a33a5.chunk.js",
+    "static/js/2.c58a33a5.chunk.js.map": "/vrasm-project/static/js/2.c58a33a5.chunk.js.map",
+    "static/js/3.9e0a17a0.chunk.js": "/vrasm-project/static/js/3.9e0a17a0.chunk.js",
+    "static/js/3.9e0a17a0.chunk.js.map": "/vrasm-project/static/js/3.9e0a17a0.chunk.js.map",
+    "index.html": "/vrasm-project/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/vrasm-project/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.c2355415.chunk.css.map": "/vrasm-project/static/css/main.c2355415.chunk.css.map",
+    "static/js/2.c58a33a5.chunk.js.LICENSE.txt": "/vrasm-project/static/js/2.c58a33a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a08d67e.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.c58a33a5.chunk.js",
+    "static/css/main.c2355415.chunk.css",
+    "static/js/main.fceec423.chunk.js"
+  ]
+}
