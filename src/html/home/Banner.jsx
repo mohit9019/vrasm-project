@@ -8,12 +8,12 @@ function Banner(){
         {/* <Categories /> */}
         <center>
         <div className="banner">
-            <div className="ban"><img src="./Images/banner-left.png" className="ban" />
+            <div className="ban"><img src="/Images/banner-left.png" className="ban" />
             <p className="ban-text">FRONT-END DESIGNER</p></div>
         </div>
         <div className="banner">
         <div className="ban">
-            <img src="./Images/banner-right.png" className="ban" />
+            <img src="/Images/banner-right.png" className="ban" />
             <p className="ban-text">FRONT-END DEVELOPER</p></div>
         </div></center>
         </>
