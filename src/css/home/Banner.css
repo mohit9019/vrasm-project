@@ -8,23 +8,27 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 8%;
+
 }
 .ban img{
-    width: 65%;
+    width: 50%;
     height: auto;
+    margin-bottom: 5%;
 }
 .ban p{
     background-color: rgb(24, 24, 24);
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 25px;
     padding: 5px 0 5px 0;
+    margin-top: 4%;
 }
 
 .templetes{
     width: 30%;
     display: inline-flex;
     flex-direction: row;
-    margin:5% 0 0 2.5% ;  
+    margin:2.5% 0 0 3% ;  
  }
 
   @media only screen and (max-width: 480px) {
@@ -47,7 +51,7 @@
     }
     .banner{
         width: 100%;
-        margin-top: 5px;
+        margin-top: 22%;
     }
     .banner p{
         font-size: 20px;
@@ -66,7 +70,7 @@
       } */
       .banner{
         width: 100%;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .banner p{
         font-size: 20px;

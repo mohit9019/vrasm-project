@@ -5,15 +5,17 @@
     height: auto;
     background-color:rgb(24, 24, 24) ;
     overflow: hidden;
-    /* position: fixed;
-    z-index: 6; */ 
+    /* /* position: fixed; */
+    z-index: 11; 
+    position: fixed;
+    top: 0;
 }
 .logo-cont{
     width: 30%;
     float: left;
 }
 .logo{
-    width: 50%;
+    width: 33%;
     height: auto;
     margin: 2px 0 2px 20px;
     float: left;
@@ -43,12 +45,15 @@
 @media only screen and (max-width:480px) {
     .top{
         width: 100%;
+        position: fixed;
+        z-index: 11;
     }
     .logo-cont{
         width: 30%;    
     }
     .logo{
-        width: 80%;
+        width: 50%;
+        margin-top: 6%;
     }
     .top-cont{
         width: 70%;
